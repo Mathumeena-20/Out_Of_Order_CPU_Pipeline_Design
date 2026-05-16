@@ -1,0 +1,1011 @@
+# ERROR: No extended dataflow license exists
+# vsim work.tb_top 
+# Start time: 20:58:06 on May 15,2026
+# Loading sv_std.std
+# Loading work.tb_top
+# Loading work.enums_pkg
+# Loading work.typedefs_pkg
+# Loading work.parameters_pkg
+# Loading work.cpu_top_sv_unit
+# Loading work.cpu_top
+# Loading work.fetch_unit_sv_unit
+# Loading work.fetch_unit
+# Loading work.pc_logic
+# Loading work.next_pc_logic
+# Loading work.decoder_sv_unit
+# Loading work.decoder
+# Loading work.reservation_station
+add wave -r /*
+run 500ns
+# [RS] Dispatch Entry=0 Time=45000
+# [RS] Dispatch Entry=1 Time=55000
+# [RS] Dispatch Entry=2 Time=65000
+# [RS] Dispatch Entry=3 Time=75000
+# [RS] Dispatch Entry=4 Time=85000
+# [RS] Dispatch Entry=5 Time=95000
+# [RS] Dispatch Entry=6 Time=105000
+# [RS] Dispatch Entry=7 Time=115000
+# [RS] Dispatch Entry=8 Time=125000
+# [RS] Dispatch Entry=9 Time=135000
+# [RS] Dispatch Entry=10 Time=145000
+# [RS] Dispatch Entry=11 Time=155000
+# [RS] Dispatch Entry=12 Time=165000
+# [RS] Dispatch Entry=13 Time=175000
+# [RS] Dispatch Entry=14 Time=185000
+# [RS] Dispatch Entry=15 Time=195000
+# Simulation Finished
+# ** Note: $finish    : verification/TESTBENCH/tb_top.sv(59)
+#    Time: 500 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at verification/TESTBENCH/tb_top.sv line 59
+add wave /tb_top/clk
+add wave /tb_top/rst
+add wave /tb_top/dut/pc
+add wave /tb_top/dut/instruction
+
+add wave /tb_top/dut/fetch_valid
+add wave /tb_top/dut/decode_valid
+add wave /tb_top/dut/execute_valid
+add wave /tb_top/dut/commit_valid
+add wave /tb_top/dut/if_id_instr
+add wave /tb_top/dut/id_ex_instr
+add wave /tb_top/dut/ex_mem_instr
+add wave /tb_top/dut/mem_wb_instr
+add wave /tb_top/dut/u_fetch/current_pc
+add wave /tb_top/dut/u_fetch/next_pc
+add wave /tb_top/dut/u_fetch/fetch_pc
+add wave /tb_top/dut/opcode
+add wave /tb_top/dut/rd
+add wave /tb_top/dut/rs1
+add wave /tb_top/dut/rs2
+add wave /tb_top/dut/funct3
+add wave /tb_top/dut/funct7
+add wave /tb_top/dut/alu_result
+run 500ns
+wave zoom full
+# {0 ps} {1050 ns}
+# Break key hit
+quit vsim
+# unknown switch: vsim
+quit -vsim
+# unknown switch: -vsim
+quit -sim
+# End time: 21:11:33 on May 15,2026, Elapsed time: 0:13:27
+# Errors: 0, Warnings: 0
+vsim work.tb_top
+# vsim work.tb_top 
+# Start time: 21:12:11 on May 15,2026
+# Loading sv_std.std
+# Loading work.tb_top
+# Loading work.enums_pkg
+# Loading work.typedefs_pkg
+# Loading work.parameters_pkg
+# Loading work.cpu_top_sv_unit
+# Loading work.cpu_top
+# Loading work.fetch_unit_sv_unit
+# Loading work.fetch_unit
+# Loading work.pc_logic
+# Loading work.next_pc_logic
+# Loading work.decoder_sv_unit
+# Loading work.decoder
+# Loading work.reservation_station
+# WARNING: No extended dataflow license exists
+add wave /tb_top/clk
+add wave /tb_top/rst
+add wave /tb_top/dut/pc
+add wave /tb_top/dut/instruction
+
+add wave /tb_top/dut/fetch_valid
+add wave /tb_top/dut/decode_valid
+add wave /tb_top/dut/execute_valid
+add wave /tb_top/dut/commit_valid
+add wave /tb_top/dut/if_id_instr
+add wave /tb_top/dut/id_ex_instr
+add wave /tb_top/dut/ex_mem_instr
+add wave /tb_top/dut/mem_wb_instr
+add wave /tb_top/dut/u_fetch/current_pc
+add wave /tb_top/dut/u_fetch/next_pc
+add wave /tb_top/dut/u_fetch/fetch_pc
+add wave /tb_top/dut/opcode
+add wave /tb_top/dut/rd
+add wave /tb_top/dut/rs1
+add wave /tb_top/dut/rs2
+add wave /tb_top/dut/funct3
+add wave /tb_top/dut/funct7
+add wave /tb_top/dut/alu_result
+run 500ns
+# [RS] Dispatch Entry=0 Time=45000
+# [RS] Dispatch Entry=1 Time=55000
+# [RS] Dispatch Entry=2 Time=65000
+# [RS] Dispatch Entry=3 Time=75000
+# [RS] Dispatch Entry=4 Time=85000
+# [RS] Dispatch Entry=5 Time=95000
+# [RS] Dispatch Entry=6 Time=105000
+# [RS] Dispatch Entry=7 Time=115000
+# [RS] Dispatch Entry=8 Time=125000
+# [RS] Dispatch Entry=9 Time=135000
+# [RS] Dispatch Entry=10 Time=145000
+# [RS] Dispatch Entry=11 Time=155000
+# [RS] Dispatch Entry=12 Time=165000
+# [RS] Dispatch Entry=13 Time=175000
+# [RS] Dispatch Entry=14 Time=185000
+# [RS] Dispatch Entry=15 Time=195000
+# Simulation Finished
+# ** Note: $finish    : verification/TESTBENCH/tb_top.sv(59)
+#    Time: 500 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at verification/TESTBENCH/tb_top.sv line 59
+wave zoom full
+# {0 ps} {525 ns}
+quit -sim
+# End time: 21:17:13 on May 15,2026, Elapsed time: 0:05:02
+# Errors: 0, Warnings: 0
+quit -sim
+vlog RTL/decode/decoder.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:18:11 on May 15,2026
+# vlog -reportprogress 300 RTL/decode/decoder.sv 
+# -- Compiling package decoder_sv_unit
+# -- Importing package parameters_pkg
+# -- Importing package typedefs_pkg
+# -- Importing package enums_pkg
+# -- Compiling module decoder
+# 
+# Top level modules:
+# 	decoder
+# End time: 21:18:11 on May 15,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog RTL/top/cpu_top.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:18:33 on May 15,2026
+# vlog -reportprogress 300 RTL/top/cpu_top.sv 
+# -- Compiling package cpu_top_sv_unit
+# -- Importing package parameters_pkg
+# -- Importing package typedefs_pkg
+# -- Importing package enums_pkg
+# -- Compiling module cpu_top
+# 
+# Top level modules:
+# 	cpu_top
+# End time: 21:18:33 on May 15,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_top
+# vsim work.tb_top 
+# Start time: 21:19:11 on May 15,2026
+# Loading sv_std.std
+# Loading work.tb_top
+# Loading work.enums_pkg
+# Loading work.typedefs_pkg
+# Loading work.parameters_pkg
+# Loading work.cpu_top_sv_unit
+# Loading work.cpu_top
+# Loading work.fetch_unit_sv_unit
+# Loading work.fetch_unit
+# Loading work.pc_logic
+# Loading work.next_pc_logic
+# Loading work.decoder_sv_unit
+# Loading work.decoder
+# Loading work.reservation_station
+# WARNING: No extended dataflow license exists
+add wave /tb_top/clk
+add wave /tb_top/rst
+add wave /tb_top/dut/pc
+add wave /tb_top/dut/instruction
+
+add wave /tb_top/dut/fetch_valid
+add wave /tb_top/dut/decode_valid
+add wave /tb_top/dut/execute_valid
+add wave /tb_top/dut/commit_valid
+add wave /tb_top/dut/if_id_instr
+add wave /tb_top/dut/id_ex_instr
+add wave /tb_top/dut/ex_mem_instr
+add wave /tb_top/dut/mem_wb_instr
+add wave /tb_top/dut/u_fetch/current_pc
+add wave /tb_top/dut/u_fetch/next_pc
+add wave /tb_top/dut/u_fetch/fetch_pc
+add wave /tb_top/dut/opcode
+add wave /tb_top/dut/rd
+add wave /tb_top/dut/rs1
+add wave /tb_top/dut/rs2
+add wave /tb_top/dut/funct3
+add wave /tb_top/dut/funct7
+add wave /tb_top/dut/alu_result
+run 500ns
+# [RS] Dispatch Entry=0 Time=45000
+# [RS] Dispatch Entry=1 Time=55000
+# [RS] Dispatch Entry=2 Time=65000
+# [RS] Dispatch Entry=3 Time=75000
+# [RS] Dispatch Entry=4 Time=85000
+# [RS] Dispatch Entry=5 Time=95000
+# [RS] Dispatch Entry=6 Time=105000
+# [RS] Dispatch Entry=7 Time=115000
+# [RS] Dispatch Entry=8 Time=125000
+# [RS] Dispatch Entry=9 Time=135000
+# [RS] Dispatch Entry=10 Time=145000
+# [RS] Dispatch Entry=11 Time=155000
+# [RS] Dispatch Entry=12 Time=165000
+# [RS] Dispatch Entry=13 Time=175000
+# [RS] Dispatch Entry=14 Time=185000
+# [RS] Dispatch Entry=15 Time=195000
+# Simulation Finished
+# ** Note: $finish    : verification/TESTBENCH/tb_top.sv(59)
+#    Time: 500 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at verification/TESTBENCH/tb_top.sv line 59
+wave zoom full
+# {0 ps} {525 ns}
+quit -sim
+# End time: 07:57:12 on May 16,2026, Elapsed time: 10:38:01
+# Errors: 0, Warnings: 0
+vlog RTL/top/cpu_top.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:57:30 on May 16,2026
+# vlog -reportprogress 300 RTL/top/cpu_top.sv 
+# -- Compiling package cpu_top_sv_unit
+# -- Importing package parameters_pkg
+# -- Importing package typedefs_pkg
+# -- Importing package enums_pkg
+# -- Compiling module cpu_top
+# 
+# Top level modules:
+# 	cpu_top
+# End time: 07:57:31 on May 16,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+add wave /tb_top/clk
+add wave /tb_top/rst
+add wave /tb_top/dut/pc
+add wave /tb_top/dut/instruction
+
+add wave /tb_top/dut/fetch_valid
+add wave /tb_top/dut/decode_valid
+add wave /tb_top/dut/execute_valid
+add wave /tb_top/dut/commit_valid
+add wave /tb_top/dut/if_id_instr
+add wave /tb_top/dut/id_ex_instr
+add wave /tb_top/dut/ex_mem_instr
+add wave /tb_top/dut/mem_wb_instr
+add wave /tb_top/dut/u_fetch/current_pc
+add wave /tb_top/dut/u_fetch/next_pc
+add wave /tb_top/dut/u_fetch/fetch_pc
+add wave /tb_top/dut/opcode
+add wave /tb_top/dut/rd
+add wave /tb_top/dut/rs1
+add wave /tb_top/dut/rs2
+add wave /tb_top/dut/funct3
+add wave /tb_top/dut/funct7
+add wave /tb_top/dut/alu_result
+run 500ns
+# No Design Loaded!
+vsim wave -r /*
+# ** UI-Msg: (vish-3296) Unknown option '-r'.
+# Use the -help option for complete vsim usage.
+# Error loading design
+add wave -r /*
+vsim work.tb_top
+# vsim work.tb_top 
+# Start time: 07:59:22 on May 16,2026
+# Loading sv_std.std
+# Loading work.tb_top
+# Loading work.enums_pkg
+# Loading work.typedefs_pkg
+# Loading work.parameters_pkg
+# Loading work.cpu_top_sv_unit
+# Loading work.cpu_top
+# Loading work.fetch_unit_sv_unit
+# Loading work.fetch_unit
+# Loading work.pc_logic
+# Loading work.next_pc_logic
+# Loading work.decoder_sv_unit
+# Loading work.decoder
+# Loading work.reservation_station
+# WARNING: No extended dataflow license exists
+add wave /tb_top/clk
+add wave /tb_top/rst
+add wave /tb_top/dut/pc
+add wave /tb_top/dut/instruction
+
+add wave /tb_top/dut/fetch_valid
+add wave /tb_top/dut/decode_valid
+add wave /tb_top/dut/execute_valid
+add wave /tb_top/dut/commit_valid
+add wave /tb_top/dut/if_id_instr
+add wave /tb_top/dut/id_ex_instr
+add wave /tb_top/dut/ex_mem_instr
+add wave /tb_top/dut/mem_wb_instr
+add wave /tb_top/dut/u_fetch/current_pc
+add wave /tb_top/dut/u_fetch/next_pc
+add wave /tb_top/dut/u_fetch/fetch_pc
+add wave /tb_top/dut/opcode
+add wave /tb_top/dut/rd
+add wave /tb_top/dut/rs1
+add wave /tb_top/dut/rs2
+add wave /tb_top/dut/funct3
+add wave /tb_top/dut/funct7
+add wave /tb_top/dut/alu_result
+run 500ns
+# [RS] Dispatch Entry=0 Time=45000
+# [RS] Dispatch Entry=1 Time=55000
+# [RS] Dispatch Entry=2 Time=65000
+# [RS] Dispatch Entry=3 Time=75000
+# [RS] Dispatch Entry=4 Time=85000
+# [RS] Dispatch Entry=5 Time=95000
+# [RS] Dispatch Entry=6 Time=105000
+# [RS] Dispatch Entry=7 Time=115000
+# [RS] Dispatch Entry=8 Time=125000
+# [RS] Dispatch Entry=9 Time=135000
+# [RS] Dispatch Entry=10 Time=145000
+# [RS] Dispatch Entry=11 Time=155000
+# [RS] Dispatch Entry=12 Time=165000
+# [RS] Dispatch Entry=13 Time=175000
+# [RS] Dispatch Entry=14 Time=185000
+# [RS] Dispatch Entry=15 Time=195000
+# Simulation Finished
+# ** Note: $finish    : verification/TESTBENCH/tb_top.sv(59)
+#    Time: 500 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at verification/TESTBENCH/tb_top.sv line 59
+wave zoom full
+# {0 ps} {525 ns}
+quit -sim
+# End time: 08:09:07 on May 16,2026, Elapsed time: 0:09:45
+# Errors: 0, Warnings: 0
+vlog RTL/decode/decoder.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:09:31 on May 16,2026
+# vlog -reportprogress 300 RTL/decode/decoder.sv 
+# -- Compiling package decoder_sv_unit
+# -- Importing package parameters_pkg
+# -- Importing package typedefs_pkg
+# -- Importing package enums_pkg
+# -- Compiling module decoder
+# 
+# Top level modules:
+# 	decoder
+# End time: 08:09:32 on May 16,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim work.tb_top
+# vsim work.tb_top 
+# Start time: 08:09:41 on May 16,2026
+# Loading sv_std.std
+# Loading work.tb_top
+# Loading work.enums_pkg
+# Loading work.typedefs_pkg
+# Loading work.parameters_pkg
+# Loading work.cpu_top_sv_unit
+# Loading work.cpu_top
+# Loading work.fetch_unit_sv_unit
+# Loading work.fetch_unit
+# Loading work.pc_logic
+# Loading work.next_pc_logic
+# Loading work.decoder_sv_unit
+# Loading work.decoder
+# Loading work.reservation_station
+# WARNING: No extended dataflow license exists
+add wave /tb_top/clk
+add wave /tb_top/rst
+add wave /tb_top/dut/pc
+add wave /tb_top/dut/instruction
+
+add wave /tb_top/dut/fetch_valid
+add wave /tb_top/dut/decode_valid
+add wave /tb_top/dut/execute_valid
+add wave /tb_top/dut/commit_valid
+add wave /tb_top/dut/if_id_instr
+add wave /tb_top/dut/id_ex_instr
+add wave /tb_top/dut/ex_mem_instr
+add wave /tb_top/dut/mem_wb_instr
+add wave /tb_top/dut/u_fetch/current_pc
+add wave /tb_top/dut/u_fetch/next_pc
+add wave /tb_top/dut/u_fetch/fetch_pc
+add wave /tb_top/dut/opcode
+add wave /tb_top/dut/rd
+add wave /tb_top/dut/rs1
+add wave /tb_top/dut/rs2
+add wave /tb_top/dut/funct3
+add wave /tb_top/dut/funct7
+add wave /tb_top/dut/alu_result
+run 500ns
+# [RS] Dispatch Entry=0 Time=45000
+# [RS] Dispatch Entry=1 Time=55000
+# [RS] Dispatch Entry=2 Time=65000
+# [RS] Dispatch Entry=3 Time=75000
+# [RS] Dispatch Entry=4 Time=85000
+# [RS] Dispatch Entry=5 Time=95000
+# [RS] Dispatch Entry=6 Time=105000
+# [RS] Dispatch Entry=7 Time=115000
+# [RS] Dispatch Entry=8 Time=125000
+# [RS] Dispatch Entry=9 Time=135000
+# [RS] Dispatch Entry=10 Time=145000
+# [RS] Dispatch Entry=11 Time=155000
+# [RS] Dispatch Entry=12 Time=165000
+# [RS] Dispatch Entry=13 Time=175000
+# [RS] Dispatch Entry=14 Time=185000
+# [RS] Dispatch Entry=15 Time=195000
+# Simulation Finished
+# ** Note: $finish    : verification/TESTBENCH/tb_top.sv(59)
+#    Time: 500 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at verification/TESTBENCH/tb_top.sv line 59
+quit -sim
+# End time: 08:34:34 on May 16,2026, Elapsed time: 0:24:53
+# Errors: 0, Warnings: 0
+vlog verification/TESTBENCH/tb_top.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:35:31 on May 16,2026
+# vlog -reportprogress 300 verification/TESTBENCH/tb_top.sv 
+# -- Compiling module tb_top
+# 
+# Top level modules:
+# 	tb_top
+# End time: 08:35:34 on May 16,2026, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 0
+vlog RTL/top/cpu_top.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:36:21 on May 16,2026
+# vlog -reportprogress 300 RTL/top/cpu_top.sv 
+# -- Compiling package cpu_top_sv_unit
+# -- Importing package parameters_pkg
+# -- Importing package typedefs_pkg
+# -- Importing package enums_pkg
+# -- Compiling module cpu_top
+# 
+# Top level modules:
+# 	cpu_top
+# End time: 08:36:22 on May 16,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim work.tb_top
+# vsim work.tb_top 
+# Start time: 08:37:06 on May 16,2026
+# Loading sv_std.std
+# Loading work.tb_top
+# Loading work.enums_pkg
+# Loading work.typedefs_pkg
+# Loading work.parameters_pkg
+# Loading work.cpu_top_sv_unit
+# Loading work.cpu_top
+# Loading work.fetch_unit_sv_unit
+# Loading work.fetch_unit
+# Loading work.pc_logic
+# Loading work.next_pc_logic
+# Loading work.decoder_sv_unit
+# Loading work.decoder
+# Loading work.reservation_station
+# WARNING: No extended dataflow license exists
+add wave /tb_top/clk
+add wave /tb_top/rst
+add wave /tb_top/dut/pc
+add wave /tb_top/dut/instruction
+
+add wave /tb_top/dut/fetch_valid
+add wave /tb_top/dut/decode_valid
+add wave /tb_top/dut/execute_valid
+add wave /tb_top/dut/commit_valid
+add wave /tb_top/dut/if_id_instr
+add wave /tb_top/dut/id_ex_instr
+add wave /tb_top/dut/ex_mem_instr
+add wave /tb_top/dut/mem_wb_instr
+add wave /tb_top/dut/u_fetch/current_pc
+add wave /tb_top/dut/u_fetch/next_pc
+add wave /tb_top/dut/u_fetch/fetch_pc
+add wave /tb_top/dut/opcode
+add wave /tb_top/dut/rd
+add wave /tb_top/dut/rs1
+add wave /tb_top/dut/rs2
+add wave /tb_top/dut/funct3
+add wave /tb_top/dut/funct7
+add wave /tb_top/dut/alu_result
+run 500ns
+# [RS] Dispatch Entry=0 Time=45000
+# [RS] Dispatch Entry=1 Time=55000
+# [RS] Dispatch Entry=2 Time=65000
+# [RS] Dispatch Entry=3 Time=75000
+# [RS] Dispatch Entry=4 Time=85000
+# [RS] Dispatch Entry=5 Time=95000
+# [RS] Dispatch Entry=6 Time=105000
+# [RS] Dispatch Entry=7 Time=115000
+# [RS] Dispatch Entry=8 Time=125000
+# [RS] Dispatch Entry=9 Time=135000
+# [RS] Dispatch Entry=10 Time=145000
+# [RS] Dispatch Entry=11 Time=155000
+# [RS] Dispatch Entry=12 Time=165000
+# [RS] Dispatch Entry=13 Time=175000
+# [RS] Dispatch Entry=14 Time=185000
+# [RS] Dispatch Entry=15 Time=195000
+# Simulation Finished
+# ** Note: $finish    : verification/TESTBENCH/tb_top.sv(59)
+#    Time: 500 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at verification/TESTBENCH/tb_top.sv line 59
+restart -f
+restart -f
+quit -sim
+# End time: 08:44:46 on May 16,2026, Elapsed time: 0:07:40
+# Errors: 0, Warnings: 0
+vsim work.tb_top
+# vsim work.tb_top 
+# Start time: 08:44:52 on May 16,2026
+# Loading sv_std.std
+# Loading work.tb_top
+# Loading work.enums_pkg
+# Loading work.typedefs_pkg
+# Loading work.parameters_pkg
+# Loading work.cpu_top_sv_unit
+# Loading work.cpu_top
+# Loading work.fetch_unit_sv_unit
+# Loading work.fetch_unit
+# Loading work.pc_logic
+# Loading work.next_pc_logic
+# Loading work.decoder_sv_unit
+# Loading work.decoder
+# Loading work.reservation_station
+# WARNING: No extended dataflow license exists
+add wave /tb_top/clk
+add wave /tb_top/rst
+add wave /tb_top/dut/pc
+add wave /tb_top/dut/instruction
+
+add wave /tb_top/dut/fetch_valid
+add wave /tb_top/dut/decode_valid
+add wave /tb_top/dut/execute_valid
+add wave /tb_top/dut/commit_valid
+add wave /tb_top/dut/if_id_instr
+add wave /tb_top/dut/id_ex_instr
+add wave /tb_top/dut/ex_mem_instr
+add wave /tb_top/dut/mem_wb_instr
+add wave /tb_top/dut/u_fetch/current_pc
+add wave /tb_top/dut/u_fetch/next_pc
+add wave /tb_top/dut/u_fetch/fetch_pc
+add wave /tb_top/dut/opcode
+add wave /tb_top/dut/rd
+add wave /tb_top/dut/rs1
+add wave /tb_top/dut/rs2
+add wave /tb_top/dut/funct3
+add wave /tb_top/dut/funct7
+add wave /tb_top/dut/alu_result
+run 500ns
+# [RS] Dispatch Entry=0 Time=45000
+# [RS] Dispatch Entry=1 Time=55000
+# [RS] Dispatch Entry=2 Time=65000
+# [RS] Dispatch Entry=3 Time=75000
+# [RS] Dispatch Entry=4 Time=85000
+# [RS] Dispatch Entry=5 Time=95000
+# [RS] Dispatch Entry=6 Time=105000
+# [RS] Dispatch Entry=7 Time=115000
+# [RS] Dispatch Entry=8 Time=125000
+# [RS] Dispatch Entry=9 Time=135000
+# [RS] Dispatch Entry=10 Time=145000
+# [RS] Dispatch Entry=11 Time=155000
+# [RS] Dispatch Entry=12 Time=165000
+# [RS] Dispatch Entry=13 Time=175000
+# [RS] Dispatch Entry=14 Time=185000
+# [RS] Dispatch Entry=15 Time=195000
+# Simulation Finished
+# ** Note: $finish    : verification/TESTBENCH/tb_top.sv(59)
+#    Time: 500 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at verification/TESTBENCH/tb_top.sv line 59
+run 1us
+wave zoom full
+# {0 ps} {1575 ns}
+restart -f
+vlog RTL/top/cpu_top.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:53:12 on May 16,2026
+# vlog -reportprogress 300 RTL/top/cpu_top.sv 
+# -- Compiling package cpu_top_sv_unit
+# -- Importing package parameters_pkg
+# -- Importing package typedefs_pkg
+# -- Importing package enums_pkg
+# -- Compiling module cpu_top
+# 
+# Top level modules:
+# 	cpu_top
+# End time: 08:53:13 on May 16,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+restart -f
+# Loading work.cpu_top_sv_unit
+# Loading work.cpu_top
+add wave /tb_top/clk
+add wave /tb_top/rst
+add wave /tb_top/dut/pc
+add wave /tb_top/dut/instruction
+
+add wave /tb_top/dut/fetch_valid
+add wave /tb_top/dut/decode_valid
+add wave /tb_top/dut/execute_valid
+add wave /tb_top/dut/commit_valid
+add wave /tb_top/dut/if_id_instr
+add wave /tb_top/dut/id_ex_instr
+add wave /tb_top/dut/ex_mem_instr
+add wave /tb_top/dut/mem_wb_instr
+add wave /tb_top/dut/u_fetch/current_pc
+add wave /tb_top/dut/u_fetch/next_pc
+add wave /tb_top/dut/u_fetch/fetch_pc
+add wave /tb_top/dut/opcode
+add wave /tb_top/dut/rd
+add wave /tb_top/dut/rs1
+add wave /tb_top/dut/rs2
+add wave /tb_top/dut/funct3
+add wave /tb_top/dut/funct7
+add wave /tb_top/dut/alu_result
+run 1us
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# [RS] Dispatch Entry=0 Time=45000
+# [RS] Dispatch Entry=1 Time=55000
+# [RS] Dispatch Entry=2 Time=65000
+# [RS] Dispatch Entry=3 Time=75000
+# [RS] Dispatch Entry=4 Time=85000
+# [RS] Dispatch Entry=5 Time=95000
+# [RS] Dispatch Entry=6 Time=105000
+# [RS] Dispatch Entry=7 Time=115000
+# [RS] Dispatch Entry=8 Time=125000
+# [RS] Dispatch Entry=9 Time=135000
+# [RS] Dispatch Entry=10 Time=145000
+# [RS] Dispatch Entry=11 Time=155000
+# [RS] Dispatch Entry=12 Time=165000
+# [RS] Dispatch Entry=13 Time=175000
+# [RS] Dispatch Entry=14 Time=185000
+# [RS] Dispatch Entry=15 Time=195000
+# Simulation Finished
+# ** Note: $finish    : verification/TESTBENCH/tb_top.sv(59)
+#    Time: 500 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at verification/TESTBENCH/tb_top.sv line 59
+quit -sim
+# End time: 08:54:48 on May 16,2026, Elapsed time: 0:09:56
+# Errors: 0, Warnings: 0
+vsim work.tb_top
+# vsim work.tb_top 
+# Start time: 08:55:18 on May 16,2026
+# Loading sv_std.std
+# Loading work.tb_top
+# Loading work.enums_pkg
+# Loading work.typedefs_pkg
+# Loading work.parameters_pkg
+# Loading work.cpu_top_sv_unit
+# Loading work.cpu_top
+# Loading work.fetch_unit_sv_unit
+# Loading work.fetch_unit
+# Loading work.pc_logic
+# Loading work.next_pc_logic
+# Loading work.decoder_sv_unit
+# Loading work.decoder
+# Loading work.reservation_station
+# WARNING: No extended dataflow license exists
+add wave /tb_top/clk
+add wave /tb_top/rst
+add wave /tb_top/dut/pc
+add wave /tb_top/dut/instruction
+
+add wave /tb_top/dut/fetch_valid
+add wave /tb_top/dut/decode_valid
+add wave /tb_top/dut/execute_valid
+add wave /tb_top/dut/commit_valid
+add wave /tb_top/dut/if_id_instr
+add wave /tb_top/dut/id_ex_instr
+add wave /tb_top/dut/ex_mem_instr
+add wave /tb_top/dut/mem_wb_instr
+add wave /tb_top/dut/u_fetch/current_pc
+add wave /tb_top/dut/u_fetch/next_pc
+add wave /tb_top/dut/u_fetch/fetch_pc
+add wave /tb_top/dut/opcode
+add wave /tb_top/dut/rd
+add wave /tb_top/dut/rs1
+add wave /tb_top/dut/rs2
+add wave /tb_top/dut/funct3
+add wave /tb_top/dut/funct7
+add wave /tb_top/dut/alu_result
+run 1us
+# [RS] Dispatch Entry=0 Time=45000
+# [RS] Dispatch Entry=1 Time=55000
+# [RS] Dispatch Entry=2 Time=65000
+# [RS] Dispatch Entry=3 Time=75000
+# [RS] Dispatch Entry=4 Time=85000
+# [RS] Dispatch Entry=5 Time=95000
+# [RS] Dispatch Entry=6 Time=105000
+# [RS] Dispatch Entry=7 Time=115000
+# [RS] Dispatch Entry=8 Time=125000
+# [RS] Dispatch Entry=9 Time=135000
+# [RS] Dispatch Entry=10 Time=145000
+# [RS] Dispatch Entry=11 Time=155000
+# [RS] Dispatch Entry=12 Time=165000
+# [RS] Dispatch Entry=13 Time=175000
+# [RS] Dispatch Entry=14 Time=185000
+# [RS] Dispatch Entry=15 Time=195000
+# Simulation Finished
+# ** Note: $finish    : verification/TESTBENCH/tb_top.sv(59)
+#    Time: 500 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at verification/TESTBENCH/tb_top.sv line 59
+wave zoom full
+# {0 ps} {525 ns}
+quit -sim
+# End time: 11:01:15 on May 16,2026, Elapsed time: 2:05:57
+# Errors: 0, Warnings: 0
+vlog RTL/top/cpu_top.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:01:49 on May 16,2026
+# vlog -reportprogress 300 RTL/top/cpu_top.sv 
+# -- Compiling package cpu_top_sv_unit
+# -- Importing package parameters_pkg
+# -- Importing package typedefs_pkg
+# -- Importing package enums_pkg
+# -- Compiling module cpu_top
+# 
+# Top level modules:
+# 	cpu_top
+# End time: 11:01:50 on May 16,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim work.tb_top
+# vsim work.tb_top 
+# Start time: 11:02:32 on May 16,2026
+# Loading sv_std.std
+# Loading work.tb_top
+# Loading work.enums_pkg
+# Loading work.typedefs_pkg
+# Loading work.parameters_pkg
+# Loading work.cpu_top_sv_unit
+# Loading work.cpu_top
+# Loading work.fetch_unit_sv_unit
+# Loading work.fetch_unit
+# Loading work.pc_logic
+# Loading work.next_pc_logic
+# Loading work.decoder_sv_unit
+# Loading work.decoder
+# Loading work.reservation_station
+# WARNING: No extended dataflow license exists
+add wave /tb_top/clk
+add wave /tb_top/rst
+add wave /tb_top/dut/pc
+add wave /tb_top/dut/instruction
+
+add wave /tb_top/dut/fetch_valid
+add wave /tb_top/dut/decode_valid
+add wave /tb_top/dut/execute_valid
+add wave /tb_top/dut/commit_valid
+add wave /tb_top/dut/if_id_instr
+add wave /tb_top/dut/id_ex_instr
+add wave /tb_top/dut/ex_mem_instr
+add wave /tb_top/dut/mem_wb_instr
+add wave /tb_top/dut/u_fetch/current_pc
+add wave /tb_top/dut/u_fetch/next_pc
+add wave /tb_top/dut/u_fetch/fetch_pc
+add wave /tb_top/dut/opcode
+add wave /tb_top/dut/rd
+add wave /tb_top/dut/rs1
+add wave /tb_top/dut/rs2
+add wave /tb_top/dut/funct3
+add wave /tb_top/dut/funct7
+add wave /tb_top/dut/alu_result
+run 1us
+# [RS] Dispatch Entry=0 Time=45000
+# [RS] Dispatch Entry=1 Time=55000
+# [RS] Dispatch Entry=2 Time=65000
+# [RS] Dispatch Entry=3 Time=75000
+# [RS] Dispatch Entry=4 Time=85000
+# [RS] Dispatch Entry=5 Time=95000
+# [RS] Dispatch Entry=6 Time=105000
+# [RS] Dispatch Entry=7 Time=115000
+# [RS] Dispatch Entry=8 Time=125000
+# [RS] Dispatch Entry=9 Time=135000
+# [RS] Dispatch Entry=10 Time=145000
+# [RS] Dispatch Entry=11 Time=155000
+# [RS] Dispatch Entry=12 Time=165000
+# [RS] Dispatch Entry=13 Time=175000
+# [RS] Dispatch Entry=14 Time=185000
+# [RS] Dispatch Entry=15 Time=195000
+# Simulation Finished
+# ** Note: $finish    : verification/TESTBENCH/tb_top.sv(59)
+#    Time: 500 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at verification/TESTBENCH/tb_top.sv line 59
+wave zoom full
+# {0 ps} {525 ns}
+quit -sim
+# End time: 11:37:26 on May 16,2026, Elapsed time: 0:34:54
+# Errors: 0, Warnings: 0
+vsim work.tb_top
+# vsim work.tb_top 
+# Start time: 11:37:57 on May 16,2026
+# Loading sv_std.std
+# Loading work.tb_top
+# Loading work.enums_pkg
+# Loading work.typedefs_pkg
+# Loading work.parameters_pkg
+# Loading work.cpu_top_sv_unit
+# Loading work.cpu_top
+# Loading work.fetch_unit_sv_unit
+# Loading work.fetch_unit
+# Loading work.pc_logic
+# Loading work.next_pc_logic
+# Loading work.decoder_sv_unit
+# Loading work.decoder
+# Loading work.reservation_station
+# WARNING: No extended dataflow license exists
+add wave /tb_top/clk
+add wave /tb_top/rst
+add wave /tb_top/dut/pc
+add wave /tb_top/dut/instruction
+
+add wave /tb_top/dut/fetch_valid
+add wave /tb_top/dut/decode_valid
+add wave /tb_top/dut/execute_valid
+add wave /tb_top/dut/commit_valid
+add wave /tb_top/dut/if_id_instr
+add wave /tb_top/dut/id_ex_instr
+add wave /tb_top/dut/ex_mem_instr
+add wave /tb_top/dut/mem_wb_instr
+add wave /tb_top/dut/u_fetch/current_pc
+add wave /tb_top/dut/u_fetch/next_pc
+add wave /tb_top/dut/u_fetch/fetch_pc
+add wave /tb_top/dut/opcode
+add wave /tb_top/dut/rd
+add wave /tb_top/dut/rs1
+add wave /tb_top/dut/rs2
+add wave /tb_top/dut/funct3
+add wave /tb_top/dut/funct7
+add wave /tb_top/dut/alu_result
+run 1us
+# [RS] Dispatch Entry=0 Time=45000
+# [RS] Dispatch Entry=1 Time=55000
+# [RS] Dispatch Entry=2 Time=65000
+# [RS] Dispatch Entry=3 Time=75000
+# [RS] Dispatch Entry=4 Time=85000
+# [RS] Dispatch Entry=5 Time=95000
+# [RS] Dispatch Entry=6 Time=105000
+# [RS] Dispatch Entry=7 Time=115000
+# [RS] Dispatch Entry=8 Time=125000
+# [RS] Dispatch Entry=9 Time=135000
+# [RS] Dispatch Entry=10 Time=145000
+# [RS] Dispatch Entry=11 Time=155000
+# [RS] Dispatch Entry=12 Time=165000
+# [RS] Dispatch Entry=13 Time=175000
+# [RS] Dispatch Entry=14 Time=185000
+# [RS] Dispatch Entry=15 Time=195000
+# Simulation Finished
+# ** Note: $finish    : verification/TESTBENCH/tb_top.sv(59)
+#    Time: 500 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at verification/TESTBENCH/tb_top.sv line 59
+quit -sim
+# End time: 16:21:26 on May 16,2026, Elapsed time: 4:43:29
+# Errors: 0, Warnings: 0
+vsim work.tb_top
+# vsim work.tb_top 
+# Start time: 16:21:43 on May 16,2026
+# Loading sv_std.std
+# Loading work.tb_top
+# Loading work.enums_pkg
+# Loading work.typedefs_pkg
+# Loading work.parameters_pkg
+# Loading work.cpu_top_sv_unit
+# Loading work.cpu_top
+# Loading work.fetch_unit_sv_unit
+# Loading work.fetch_unit
+# Loading work.pc_logic
+# Loading work.next_pc_logic
+# Loading work.decoder_sv_unit
+# Loading work.decoder
+# Loading work.reservation_station
+# WARNING: No extended dataflow license exists
+add wave /tb_top/clk
+add wave /tb_top/rst
+add wave /tb_top/dut/pc
+add wave /tb_top/dut/instruction
+
+add wave /tb_top/dut/fetch_valid
+add wave /tb_top/dut/decode_valid
+add wave /tb_top/dut/execute_valid
+add wave /tb_top/dut/commit_valid
+add wave /tb_top/dut/if_id_instr
+add wave /tb_top/dut/id_ex_instr
+add wave /tb_top/dut/ex_mem_instr
+add wave /tb_top/dut/mem_wb_instr
+add wave /tb_top/dut/u_fetch/current_pc
+add wave /tb_top/dut/u_fetch/next_pc
+add wave /tb_top/dut/u_fetch/fetch_pc
+add wave /tb_top/dut/opcode
+add wave /tb_top/dut/rd
+add wave /tb_top/dut/rs1
+add wave /tb_top/dut/rs2
+add wave /tb_top/dut/funct3
+add wave /tb_top/dut/funct7
+add wave /tb_top/dut/alu_result
+run 1us
+# [RS] Dispatch Entry=0 Time=45000
+# [RS] Dispatch Entry=1 Time=55000
+# [RS] Dispatch Entry=2 Time=65000
+# [RS] Dispatch Entry=3 Time=75000
+# [RS] Dispatch Entry=4 Time=85000
+# [RS] Dispatch Entry=5 Time=95000
+# [RS] Dispatch Entry=6 Time=105000
+# [RS] Dispatch Entry=7 Time=115000
+# [RS] Dispatch Entry=8 Time=125000
+# [RS] Dispatch Entry=9 Time=135000
+# [RS] Dispatch Entry=10 Time=145000
+# [RS] Dispatch Entry=11 Time=155000
+# [RS] Dispatch Entry=12 Time=165000
+# [RS] Dispatch Entry=13 Time=175000
+# [RS] Dispatch Entry=14 Time=185000
+# [RS] Dispatch Entry=15 Time=195000
+# Simulation Finished
+# ** Note: $finish    : verification/TESTBENCH/tb_top.sv(59)
+#    Time: 500 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at verification/TESTBENCH/tb_top.sv line 59
+wave oom full
+# unknown or ambiguous subcommand "oom": must be activecursor, addcursor, clipboard, collapse, configcursor, create, cursor, cursorconfig, cursortime, deletecursor, edit, editwrite, expand, export, exportvcd, group, guiObjGetUPFInfo, guiObjHasUPFInfo, import, interrupt, map, modify, overlay, pah, positioncursor, refresh, seecursor, seetime, sort, ungroup, write, zoom, zoomcursor, zoomfull, zoomin, zoomlast, zoomout, or zoomrange
+wave zoom full
+# {0 ps} {525 ns}
+quit -sim
+# End time: 16:28:11 on May 16,2026, Elapsed time: 0:06:28
+# Errors: 0, Warnings: 0
+vsim work.tb_top
+# vsim work.tb_top 
+# Start time: 16:28:35 on May 16,2026
+# Loading sv_std.std
+# Loading work.tb_top
+# Loading work.enums_pkg
+# Loading work.typedefs_pkg
+# Loading work.parameters_pkg
+# Loading work.cpu_top_sv_unit
+# Loading work.cpu_top
+# Loading work.fetch_unit_sv_unit
+# Loading work.fetch_unit
+# Loading work.pc_logic
+# Loading work.next_pc_logic
+# Loading work.decoder_sv_unit
+# Loading work.decoder
+# Loading work.reservation_station
+# WARNING: No extended dataflow license exists
+add wave /tb_top/clk
+add wave /tb_top/rst
+add wave /tb_top/dut/pc
+add wave /tb_top/dut/instruction
+
+add wave /tb_top/dut/fetch_valid
+add wave /tb_top/dut/decode_valid
+add wave /tb_top/dut/execute_valid
+add wave /tb_top/dut/commit_valid
+add wave /tb_top/dut/if_id_instr
+add wave /tb_top/dut/id_ex_instr
+add wave /tb_top/dut/ex_mem_instr
+add wave /tb_top/dut/mem_wb_instr
+add wave /tb_top/dut/u_fetch/current_pc
+add wave /tb_top/dut/u_fetch/next_pc
+add wave /tb_top/dut/u_fetch/fetch_pc
+add wave /tb_top/dut/opcode
+add wave /tb_top/dut/rd
+add wave /tb_top/dut/rs1
+add wave /tb_top/dut/rs2
+add wave /tb_top/dut/funct3
+add wave /tb_top/dut/funct7
+add wave /tb_top/dut/alu_result
+run 1us
+# [RS] Dispatch Entry=0 Time=45000
+# [RS] Dispatch Entry=1 Time=55000
+# [RS] Dispatch Entry=2 Time=65000
+# [RS] Dispatch Entry=3 Time=75000
+# [RS] Dispatch Entry=4 Time=85000
+# [RS] Dispatch Entry=5 Time=95000
+# [RS] Dispatch Entry=6 Time=105000
+# [RS] Dispatch Entry=7 Time=115000
+# [RS] Dispatch Entry=8 Time=125000
+# [RS] Dispatch Entry=9 Time=135000
+# [RS] Dispatch Entry=10 Time=145000
+# [RS] Dispatch Entry=11 Time=155000
+# [RS] Dispatch Entry=12 Time=165000
+# [RS] Dispatch Entry=13 Time=175000
+# [RS] Dispatch Entry=14 Time=185000
+# [RS] Dispatch Entry=15 Time=195000
+# Simulation Finished
+# ** Note: $finish    : verification/TESTBENCH/tb_top.sv(59)
+#    Time: 500 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at verification/TESTBENCH/tb_top.sv line 59
+wave zoom full
+# {0 ps} {525 ns}
+# End time: 18:01:25 on May 16,2026, Elapsed time: 1:32:50
+# Errors: 0, Warnings: 0

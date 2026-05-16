@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Sat May 16 17:17:21 2026
+Quartus Prime Version : 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
+Revision Name : Out_Of_Order_Cpu_Pipeline_Design_FPGA
+Top-level Entity Name : cpu_top
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 71
+Total pins : 130
+Total virtual pins : 0
+Total block memory bits : 87
+Total DSP Blocks : 0
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 0
+Total DLLs : 0
